@@ -1,0 +1,1637 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap');
+
+body {
+    font-family: sans-serif;
+
+}
+
+.homepage-banner {
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    right: 55%;
+    left: 17%;
+}
+
+.banner-content h1 {
+    color: #292F36;
+    font-family: 'DM serif display', serif;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 70px;
+}
+
+.banner-content p {
+    color: #4D5053;
+    font-family: 'jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.all-btn {
+    background-color: #292F36;
+    color: azure;
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 28px 48px;
+    font-family: 'jost';
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+
+.all-btn:hover {
+    background-color: transparent;
+    color: #292F36;
+    border: 2px solid black;
+}
+
+.all-btn:hover i {
+    color: #292F36;
+}
+
+.all-btn i {
+    color: #CDA274;
+    margin-left: 10px;
+}
+
+/* 
+columns start */
+
+.container {
+    margin-top: 90px;
+}
+
+.container h2 {
+    font-family: 'DM serif display', serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    align-items: center;
+    color: #292F36;
+
+}
+
+.container p {
+    font-family: 'jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    align-items: center;
+    color: #4D5053;
+}
+
+.my-btn {
+    font-weight: 600;
+    font-family: 'jost';
+    color: #4D5053;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2%;
+    margin-top: 52px;
+
+}
+
+.my-btn i {
+    color: #CDA274;
+}
+
+/* art_style_star */
+
+.art_style {
+    padding: 50px 0px;
+}
+
+.art_style .art_style_content h2 {
+    font-family: 'DM serif display', serif;
+    font-weight: 400;
+    line-height: 62.5px;
+    letter-spacing: 2%;
+    font-size: 50px;
+    width: 420px;
+    margin-bottom: 50px;
+}
+
+.art_style .art_style_content p {
+    font-family: 'jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    width: 472px;
+}
+
+.art_style .art_style_content ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0px;
+    margin: 40px 0px;
+}
+
+.art_style_content .call_icon i {
+    color: #CDA274;
+    font-size: 32px;
+    line-height: 93px;
+}
+
+.art_style_content .call_icon {
+    background-color: #F4F0EC;
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.art_style_content ul h4 a {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #4D5053;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.art_style_content ul p {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #4D5053;
+    letter-spacing: 1%;
+    margin-left: 20px;
+}
+
+/* testimonial start */
+.container-testimonial {
+    background-color: #F4F0EC;
+    width: 75%;
+    margin-left: 12%;
+    border-radius: 50px;
+    margin-top: 50px;
+
+}
+
+.container-testimonial .testimonial_heading h1 {
+    color: #292F36;
+    font-size: 50px;
+    font-family: 'DM serif display', serif;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 2%;
+    width: 547px;
+    margin-left: 25%;
+    padding-top: 50px;
+}
+
+
+.testimonial_img ul {
+    display: flex;
+    margin-top: 60px;
+}
+
+.testimonial_img ul li {
+    list-style: none;
+}
+
+.testimonial_img {
+    width: 300px;
+    height: 330px;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.testimonial_img ul li h5 {
+    font-family: 'DM serif display', serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    margin-left: 10px;
+}
+
+.testimonial_img ul li h6 {
+    font-family: 'jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    margin-left: 10px;
+}
+
+.testimonial_img p {
+    width: 220px;
+    margin-left: 35px;
+}
+
+/* project start */
+
+.project_image ul {
+    display: flex;
+    list-style: none;
+}
+
+.project_morden ul {
+    display: flex;
+    list-style: none;
+}
+
+.project_content h2 {
+    color: #292F36;
+    font-family: 'DM serif display', serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    letter-spacing: 2%;
+    margin-bottom: 8px;
+}
+
+.project_content p {
+    color: #4D5053;
+    font-family: 'jost';
+    font-weight: 400;
+    letter-spacing: 1%;
+    font-size: 22px;
+    line-height: 33px;
+    width: 737px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 120px;
+}
+
+.project_morden ul li a {
+    font-size: 25px;
+    border: 2px solid #F4F0EC;
+    padding: 5px 15px;
+    border-radius: 40px;
+    color: #292F36;
+    background-color: #F4F0EC;
+    font-weight: 10;
+    display: inline-block;
+    margin-left: 650%;
+    margin-top: 10px;
+}
+
+.project_morden ul li {
+    margin-top: 15px;
+}
+
+.project_morden h5 {
+    font-family: 'DM serif display', serif;
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 2%;
+    color: #292F36;
+}
+
+.project_morden p {
+    font-family: 'jost';
+    font-size: 22px;
+    font-weight: 22px;
+    line-height: 33px;
+    letter-spacing: 2%;
+    color: #4D5053;
+}
+
+.project_morden {
+    margin-bottom: 56px;
+}
+
+.project_start {
+    background-color: #E6E6E6;
+    border: 1px solid #E6E6E6;
+    width: 1401px;
+    margin-top: 93px;
+
+}
+
+/* logo start */
+
+.client_logo {
+    padding: 100px 0px;
+}
+
+.client_logo img {
+    max-height: 50px;
+    width: auto !important;
+    max-width: 130px;
+    margin: auto;
+}
+
+/* counter start */
+.number{
+    background-color: #F4F0EC;
+    padding: 100px 0px;
+}
+.counter-text {
+    border-right: 2px solid #CDA274;
+}
+.counter-text h2 {
+    color: #CDA274;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 106px;
+    letter-spacing: 2%;
+    margin-bottom: 0;
+}
+.counter-text p {
+    color: #4D5053;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: 1%;
+}
+.counter-text:nth-child(4) {
+    border-right: none;
+}
+
+
+
+/* counter end */
+
+/* article news start */
+.article_news_section{
+    padding: 100px 0px;
+}
+.article_news_section h2 {
+    text-align: center;
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    color: #292F36;
+}
+.article_news_section .article {
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4D5053;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 830px;
+}
+.article-news-card {
+    padding: 21px;
+    border: 1px solid #E7E7E7;
+    border-radius: 70px;
+    transition: 0.5s;
+}
+.article-news-card:hover {
+    background-color: #F4F0EC;
+    transform: scale(1.02);
+}
+.article-news-card:hover a {
+    background-color: #FFFFFF;
+}
+.article-news-card .image img {
+    width: 100%;
+}
+.article-news-card .image {
+    position: relative;
+}
+.article-news-card .image span {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 12px 12px 12px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D5053;
+}
+.article-news-card h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: #292F36;
+    margin-bottom: 30px;
+    width: 305px;
+}
+.article-news-card ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article-news-card ul li a {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background-color: #F4F0EC;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    color: #292F36;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+.articles-news-card ul li p {
+    margin-bottom: 0px;
+}
+
+
+/* article news end */
+
+/* contact start */
+.contact-page{
+    padding:100px 0px;
+}
+.contact-page .contact-detail {
+    border: 2px solid black;
+    padding: 80px 315px 80px 315px;
+    background-color: #292F36;
+    width: 1199px;
+    height: 374px;
+    border-radius: 70px;
+
+}
+.contact-detail h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+    
+}
+.contact-detail p {
+    font-family: 'jost';
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 22px;
+    letter-spacing: 1%;
+    line-height: 33px;
+    margin-top: 11px;
+}
+.contact-detail a {
+    background-color: #CDA274;
+    color: azure;
+    border: 2px solid #CDA274;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 28px 48px;
+    font-family: 'jost';
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+.contact-detail a:hover {
+    background-color:#292F36;
+    color: #FFFFFF;
+}
+
+.contact-detail a i{
+    color:#292F36;
+    padding-left: 10px;
+}
+/* contact end */
+/* footer start */
+footer {
+    padding:100px;
+    gap:101px;
+}
+footer .footer-info img {
+    width: 177px;
+    height: 50px;
+}
+footer .footer-info p {
+    font-family: Jost;
+    font-size: 22px;
+    line-height: 33px;
+    padding: 10px 0px;
+}
+footer .footer-info ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 0px;
+}
+footer .footer-info ul li a {
+    margin-right: 54px;
+    color: #292F36;
+}
+footer .footer-links ul, footer .footer-contact-info ul {
+    list-style: none;
+    padding-left: 0px;
+}
+footer .footer-links ul li a, footer .footer-contact-info ul li a {
+    text-decoration: none;
+    color: #4D5053;
+    margin-bottom: 10px;
+    display: block;
+}
+
+footer .footer-contact-info p {
+    width:250px;
+}
+footer .c-right p {
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 100px;
+    border-top: 1px solid #E5E5E5;
+    padding-top: 50px;
+}
+footer .footer-links h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+}
+footer .footer-contact-info h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+}
+footer .c-right p {
+    color: #4D5053;
+    letter-spacing: 1%;
+    font-family: 'jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+/* footer end */
+
+/* about us start */
+.about-page  {
+    position: relative;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 41px, 152px, 41px, 152px;
+    width: 503px;
+    height: 178px;
+    margin: auto;
+    margin-left: 29%;
+    margin-top: 4%;
+    
+}
+.about-page .about-heading {
+   position: absolute;
+   bottom: 223px;
+   margin-left: 20%;
+   background-color: #FFFFFF;
+   border: 1px solid #FFFFFF;
+   padding: 41px, 152px, 41px, 152px;
+   width: 403px;
+   height: 150px;
+   border-top-left-radius: 37px;
+   border-top-right-radius: 37px;
+}
+.about-page .about-heading h2 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 62px;
+    color: #292F36;
+}
+.about-page .about-heading .about-content {
+    padding-left: 120px;
+}
+.about-page .about-heading .about-content ol li a {
+    text-decoration: none;
+    color: #4D5053;
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+}
+.about-page .about-heading .about-content ol li {
+    color: #4D5053;
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+}
+
+/* about us end */
+/* quets start */
+.about-daily .about-like {
+    width: 870px;
+    height: 430px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.about-daily .about-like .about-pattern{
+    width: 870px;
+    height: 430px;
+    margin: auto;
+    position: relative;
+}
+.about-daily .about-like .about-pattern img {
+    width: 870px;
+    height: 430px;
+    margin: auto;
+}
+.about-daily .about-like .about-pattern .about-pattern-content {
+    position: absolute;
+    width: 750px;
+    height: 290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.about-daily .about-like .about-pattern .about-pattern-content h2 {
+    width: 60px;
+    height: 60px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 85px;
+    font-style: italic;
+    line-height: 106px;
+    color: #292F36;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-right: 60px;
+}
+.about-daily .about-like .about-pattern .about-pattern-content p {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: italic;
+    line-height: 43px;
+    color: #292F36;
+    margin-bottom: 35px;
+}
+.about-daily .about-like .about-pattern .about-pattern-content span {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: #4D5053;
+    margin-bottom: 0;
+}
+
+/* quets end */
+
+/* what we start */
+.about-section {
+    padding: 200px 0px;
+}
+.about-section .about-what {
+    width: 500px;
+    height: 334px;
+    gap: 41px;
+    /* padding: 50px 0px; */
+    
+}
+.about-section .about-what h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62.5px;
+    letter-spacing: 2%;
+    color:#292F36
+}
+.about-section .about-what p {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    color: #4D5053;
+    margin-top: 23px;
+}
+.about-section .about-what a {
+    margin-top: 41px;
+}
+a.about-btn  {
+    background-color: #292F36;
+    color: azure;
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 28px 48px;
+    font-family: 'jost';
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+a.about-btn:hover {
+    background-color: transparent;
+    color: #292F36;
+    border: 2px solid black;
+}
+.about-btn:hover i {
+    color: #292F36;
+}
+.about-btn i {
+    color: #CDA274;
+    padding-left: 10px;
+}
+
+/* what we end */
+/* about-result-page-start */
+.about-result-content {
+    width: 452px;
+    height: 334px;
+    gap: 41px;
+    margin-left: 90px;
+}
+.about-result-content h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62.5px;
+    letter-spacing: 2%;
+    color:#292F36
+}
+.about-result-content p {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    color: #4D5053;
+    margin-top: 23px;
+}
+.about-result-content a {
+    margin-top: 41px;
+}
+/* about-result-page-end */
+
+/* about-team start */
+.about-team {
+    background-color: #F4F0EC;
+    margin-top: 100px;
+    padding: 100px;
+    
+}
+.about-team-page  h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62.5px;
+    letter-spacing: 2%;
+    color:#292F36;
+    width: 547px;
+    margin: auto;
+}
+.about-team-leader {
+    display: flex;
+    margin-top: 40px;
+}
+.about-team-leader .about-team-content img {
+    padding: 0px 22px;
+    width: 283px;  
+}
+.about-team-contact .about-natasha li {
+    list-style: none;
+    margin-top: 15px;
+    padding-left: 33px;
+}
+.about-team-contact .about-natasha li h4 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    left: 1%;
+    width: 300px;
+}
+.about-team-contact .about-natasha li p {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 1%;
+    color: #4D5053;
+    width:300px ;
+}
+.about-team-contact .about-items {
+    display: flex;
+    margin-top: 60px;
+    padding-left: 55px;
+    
+}
+.about-team-contact .about-items li {
+    list-style: none;
+}
+.about-team-contact .about-items li a {
+    color: #292F36;
+    margin: 10px;
+    font-size: 18px;
+    letter-spacing: 5%;
+}
+.about-team-contact .about-email li {
+    list-style: none;
+    margin-top: 60px;
+    padding-left: 33px;
+}
+.about-team-contact .about-email li a {
+    color: #292F36;   
+}
+.about-team-contact  {
+    background-color: #FFFFFF;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    width: 260px;
+    align-items: center;
+}
+
+/* about-team-end */
+
+/* e-mail start */
+.email-page{
+    width: 796px;
+    height: 632px;
+    margin: auto;
+    padding: 100px 0px;
+}
+.email-page h3 {
+    width: 634px;
+    height: 126px;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: DM Serif Display;
+    line-height: 62px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+.email-page .email-form {
+    width: 796px;
+    height: 277px;
+}
+.email-form input {
+    border: none;
+    border-bottom: 1px solid black;
+   
+}
+.email-form input:placeholder-shown {
+    font-family: DM Serif Display ;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+.email-page .email-form {
+    /* display: flex; */
+    width: 796px;
+    height: 88px;
+    margin-top: 50px;
+}
+.email-page .email-form input {
+    width: 378px;
+    height: 45px;
+}
+ .email-conetnt {
+    width: 796px;
+    height: 175px;
+}
+.email-form .email-conetnt input {
+    width: 796px;
+    height: 200px;
+}
+.email-page .about-btn {
+    margin-left: 25%;
+}
+
+
+/* email end */
+/* about-start */
+/* service page start */
+.service-page {
+    position: relative;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 41px, 152px, 41px, 152px;
+    width: 503px;
+    height: 178px;
+    margin: auto;
+    margin-left: 29%;
+    margin-top: 4%;
+}
+.service-page .service-heading {
+    position: absolute;
+   bottom: 223px;
+   margin-left: 20%;
+   background-color: #FFFFFF;
+   border: 1px solid #FFFFFF;
+   padding: 41px, 152px, 41px, 152px;
+   width: 403px;
+   height: 150px;
+   border-top-left-radius: 37px;
+   border-top-right-radius: 37px;
+}
+.service-page .service-heading h2 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 62px;
+    color: #292F36;
+}
+.service-page .service-heading .service-content {
+    padding-left: 120px;
+}
+.service-page .service-heading .service-content ol li a {
+    text-decoration: none;
+    color: #4D5053;
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+}
+.service-page .service-heading .service-content ol li {
+    color: #4D5053;
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+}
+/* service banner end */
+/*service columns start */
+.service-columns .service-row .col-lg-4:hover {
+    background-color: #F4F0EC;
+    transition: 0.5sec;
+}
+.container .row .col-lg-4 {
+    width:398px;
+}
+/* service columns end */
+/* service how we work start */
+.how-work {
+    background-color: #F4F0EC;
+    padding: 100px 0px;
+    border-radius: 70px;
+    margin-top: 200px;
+}
+.work-content .work-heading h2 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    color: #363B41;
+}
+.work-content .work-heading p {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    color: #4D5053;
+    width: 802px;
+    margin: auto;
+}
+.how-work-section .how-work-content h5  {
+    margin-left: 100%;
+}
+.how-work-content .how-work-info {
+    width:500px;
+    height: 99px;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+}
+.how-work-content .how-work-info h3 {
+    font-family:DM Serif Display ;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #292F36;
+}
+.how-work-content .how-work-info p {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+.how-work-content .how-work-icone h5 {
+    color: #FFFFFF;
+    font-family:DM Serif Display  ;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 150px;
+}
+.how-work-content .how-work-infotec {
+    width:500px;
+    height: 99px;
+    margin-top: 10%;
+    padding-right: 15%;
+}
+.how-work-content .how-work-infotec h3 {
+    font-family:DM Serif Display ;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #292F36;
+}
+.how-work-content .how-work-infotec p {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+.how-work-content .how-work-infotec h5 {
+    color: #FFFFFF;
+    font-family:DM Serif Display  ;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 150px;
+    margin-left: 65%;
+   
+}
+/* service page end */
+
+/* service-single -page start */
+.morden-section {
+    margin-top: 200px;
+}
+.morden-section .morden-flex {
+    display: flex;
+    width: 1200px;
+    height: 471px;
+}
+.morden-section .morden-flex .morden-heading h3  {
+   font-family: DM Serif Display;
+   font-weight: 400;
+   font-size: 50px;
+   line-height: 62px;
+   color: #292F36;
+   width: 448px;
+   height: 189px;
+}
+.morden-flex .single-paragraph {
+    width: 655px;
+    height: 471px;
+    gap:28px;
+    margin-left: 5%;
+}
+.morden-flex .single-paragraph h4 {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 1%;
+    color: #CDA274;
+}
+.morden-flex .single-paragraph p {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+    letter-spacing: 1%;
+    color: #292F36 ;
+}
+.morden-flex .single-paragraph span {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+    letter-spacing: 1%;
+    color:  #292F36;
+}
+/* service-single -page end */
+/* intarior-columns start */
+.interior-section {
+    padding: 100px 0px;
+    margin-left: 12%;
+}
+.interior-section .interior-heading {
+    width: 435px;
+    height: 347px;
+    gap: 23px;
+}
+.interior-section .interior-heading h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    letter-spacing: 2%;
+    color: #292F36;
+}
+.interior-section .interior-heading ol li {
+    color: #4D5053;
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    letter-spacing:1% ;
+}
+.interior-section .interior-second-heading h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    letter-spacing: 2%;
+    color: #292F36;
+}
+.interior-section .interior-second-heading ol li {
+   color: #4D5053;
+   font-family: jost;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 60px;
+   letter-spacing:1% ;
+}
+/* intarior-columns end */
+/* we-love-content section start */
+.we-love-contrast .we-love-content h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62.5px;
+    letter-spacing: 2%;
+    color: #292F36;
+}
+.we-love-contrast .we-love-content p {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+/* we-love-content section end */
+/* service-counter section start */
+.counter {
+    padding: 100px 0px;
+}
+/* service-counter section end */
+/* pricing start */
+.pricing-section {
+    width: 1200px;
+    height: 723px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.pricing-section .row {
+    width: 1200px;
+    height: 723px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.pricing-section .row .col-lg-4 {
+    width: 368px;
+    height: 723px;
+    padding: 64px 0px;
+    border-radius: 33px;
+    background-color: #F4F0EC;
+    text-align: center;
+}
+.pricing-section .pricing-content {
+    position: relative;
+}
+.pricing-section .pricing-content .pricing-tag {
+    position: absolute;
+    bottom: -20px;
+    left: 65px;
+    width: 238px;
+    height: 43px;
+    border-radius: 18px;
+    padding: 10px 38px;
+    background-color: #292F36;
+}
+.pricing-section .pricing-content .pricing-tag h5 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.pricing-section .pricing-content {
+    width: 368px;
+    height: 213px;
+    border-bottom: 1px solid #CDA274;
+}
+.pricing-section .pricing-content .pricing-info {
+    width: 220px;
+    height: 176px;
+    margin: auto;
+    text-align: center;
+}
+.pricing-section .pricing-content .pricing-info h3 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: #292F36;
+    margin-bottom: 0;
+}
+.pricing-section .pricing-content .pricing-info h4 {
+    width: 120px;
+    height: 140px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: #292F36;
+    margin: auto;
+    margin-bottom: 0;
+}
+.pricing-section .pricing-content .pricing-info span {
+    display: inline-block;
+    width: 90px;
+    height: 85px;
+    font-size: 85px;
+    line-height: 100px;
+    color: #CDA274;
+}
+.pricing-section .pricing-income {
+    width: 279px;
+    height: 353px;
+    margin: auto;
+    margin-top: 28px;
+}
+.pricing-section .pricing-income .pricing-advice {
+    width: 279px;
+    height: 353px;
+    margin: auto;
+}
+.pricing-section .pricing-income .pricing-advice p {
+    width: 279px;
+    height: 250px;
+    margin-bottom: 28px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #4D5053;
+}
+.pricing-section .pricing-income .pricing-advice .pric-btn {
+    background-color: #292F36;
+    color: azure;
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 28px 48px;
+    font-family: 'jost';
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+.pricing-section .pricing-income .pricing-advice .pric-btn:hover {
+    background-color: #CDA274;
+    color: #292F36;
+    border: 2px solid black;
+}
+.pricing-section .pricing-income .pricing-advice .pric-btn i {
+    color: #CDA274;
+    padding-left: 10px;
+}
+.pricing-section .pricing-income .pricing-advice .pric-btn i:hover {
+    color: #292F36;
+}
+
+/* pricing end */
+/* project start */
+.project-section .our-project  {
+    margin-left: 3%;
+    margin-bottom: 100px;
+}
+.project-section .our-project ul {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    line-height: 75px;
+    align-items: center;
+    list-style: none;
+    border: 1px solid #CDA274;
+    border-radius: 18px;
+    padding-left: 0;
+}
+.project-section .our-project ul li {
+    width: 24%;
+    height: 75px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.project-section .our-project ul li:hover {
+    background-color: #CDA274;
+    transform: scale(2s);
+}
+.project-section .our-project ul li:hover a {
+    color: #FFFFFF;
+}
+.project-section .our-project ul li a {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1%;
+    color: #292F36;
+    text-decoration: none;
+}
+.project-section .project-images .project-content ul {
+    display: flex;
+    margin-top: 60px;
+}
+.project-section .project-images .project-content ul li {
+    list-style: none;
+}
+.project-section .project-images .project-content ul li a {
+    font-size: 25px;
+    border: 2px solid #F4F0EC;
+    padding: 5px 15px;
+    border-radius: 40px;
+    color: #292F36;
+    background-color: #F4F0EC;
+    font-weight: 10;
+    display: inline-block;
+    margin-left:650%;
+    margin-top: 10px;
+    
+}
+
+
+.project-icon a {
+    font-family:jost ;
+    font-size: 25px;
+    border: 1px solid #CDA274 ;
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: #292F36;
+    background-color:transparent;
+    font-weight: 5; 
+    text-decoration: none;
+
+}
+.project-icon a:hover {
+    background-color:#F4F0EC ;
+}
+
+
+
+/* project end */
+/* blog page start */
+.letest-post-section h2 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62.5px;
+    letter-spacing: 2%;
+    color: #292F36;
+    margin-bottom: 27px;
+}
+.letest-post-section .letest-box h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 2%;
+    color: #292F36;
+}
+.letest-post-section .letest-box p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+.letest-post-section .letest-box .project-content ul  {
+    display: flex;
+    margin-top: 60px;
+}
+.letest-post-section .letest-box .project-content ul li {
+    list-style: none;
+}
+.letest-post-section .letest-box .project-content ul li a {
+    font-size: 25px;
+    border: 2px solid #F4F0EC;
+    padding: 5px 15px;
+    border-radius: 40px;
+    color: #292F36;
+    background-color: #F4F0EC;
+    font-weight: 10;
+    display: inline-block;
+    margin-left:650%;
+    margin-top: 10px;
+}
+
+
+/* blog page End */
+
+/* chengelog page start */
+.chengelog-page .chengelog-heading {
+    display: flex;
+    background-color:#F4F0EC;
+    width:1200px ;
+    height: 250px;
+    margin: auto;
+    padding-left: 60%;
+    padding-top: 12%;
+    border: 1px solid transparent;
+    border-radius: 70px;
+    gap:10px
+}
+.chengelog-page .chengelog-heading .chengelog-h2 h2 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 1%;
+    color: #292F36;
+    
+}
+.chengelog-page .chengelog-heading .chengelog-content p {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    color: #4D5053;
+    margin: 20px;
+}
+
+/* chengelog page end */
+/* password page start */
+.password-page {
+    background-color: #F4F0EC;
+    border: 1px solid transparent;
+    border-radius: 70px;
+    width: 1200px;
+    height: 670px;
+    margin: auto;
+    gap:10px;
+}
+.password-page .password-content .password-heading h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 1%;
+    color: #292F36;
+    margin-top: 100px;
+}
+.password-page .password-content .password-heading p {
+    font-family: jost;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    color: #4D5053;
+    width: 718px;
+    margin: auto;
+}
+.password-page .password-content .password-email input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 50px;
+    width:482px;
+}
+
+/* password-page end */
+
+/* page-404 start */
+.page-404 .page-404-heading h3 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 250px;
+    color: #CDA274;
+}
+.page-404 .page-404-heading p {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 35px;
+    color: #292F36;
+    line-height: 52.5px;
+    letter-spacing: 1%;
+    width: 569px;
+    margin-top: 10px;
+}
+/* page-404 end */
+
+/* contact page start */
+.contact-form {
+    padding: 50px 0px;
+    margin-left: 5%;
+}
+.contact-form h3 {
+    text-align: center;
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 1%;
+    width: 683px;
+    margin: auto;
+}
+.contact-form .contact-content {
+    width: 200px;
+   height:250px;
+   margin: 20px;
+   background-color: #F4F0EC;
+   border: 2px solid transparent;
+   border-radius: 20px;
+   
+}
+.contact-form .contact-content i {
+    color:#4D5053;
+    background-color: #FFFFFF;
+    
+}
+.contact-form .contact-love .contact-page {
+    width: 797px;
+    height:500px;
+    margin-left: 15%;
+    padding: 50px;
+}
+.contact-form .contact-love .contact-page input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 400px;
+}
+.contact-form .contact-love .contact-page textarea {
+    width: 700px;
+    border: none;
+    border-bottom: 1px solid black;
+    
+
+}
+.contact-form .contact-btn {
+    background-color: #292F36;
+    color: azure;
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 28px 48px;
+    font-family: 'jost';
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    margin-left: 75%;
+}
+.contact-form .contact-btn:hover {
+    background-color: transparent;
+    color: #292F36;
+    border: 2px solid black;
+}
+
+/* contact-form end */
+
+/* team page start */
+
+.team-page .team-section .team-pitcure ul li {
+    list-style: none;
+}
+
+.team-page .team-section .team-pitcure ul li h3 {
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    /* text-align: center; */
+}
+.team-page .team-section .team-pitcure ul li p {
+    color: #4D5053;
+    font-family: jost;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1%;
+    /* text-align: center; */
+}
+.team-page .team-section .team-pitcure .team-media  li a {
+    color: #292F36;
+    padding: 20px;
+    margin: auto;
+}
+/* team page end  */
